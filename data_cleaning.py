@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 data = {
     "StudentID": [1, 2, 3, 4],
     "Name": ["Jerry", "Jenny", "John", "Emily"],
@@ -29,7 +28,6 @@ df["age"] = df["age"].astype(int)
 
 df.to_csv('cleaned_student_performance.csv', index=False)
 
-plt.pie(df[''])
 
 print("\nCleaned DataFrame:\n", df)
 print("\nSummary of changes:")
